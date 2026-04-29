@@ -1,32 +1,12 @@
 [
   {
-    "id": 20260320,
-    "yil": 1447,
-    "ay": "Şevval",
-    "tarih": "20.03.2026",
-    "durum": "GÖRÜLMEDİ",
-    "mesaj": "Ramazan ayının 29. akşamı yapılan gözlemlerde hilal görülememiştir. Ramazan ayı 30 güne tamamlanacaktır. Şevval ayının (Ramazan Bayramı) 1. günü 22 Mart Pazar günüdür.",
-    "klasor": "1447/10",
-    "resim_sayisi": 2
-  },
-  {
-    "id": 20260218,
+    "id": 20260228,
     "yil": 1447,
     "ay": "Ramazan",
-    "tarih": "18.02.2026",
-    "durum": "GÖRÜLMEDİ",
-    "mesaj": "Şaban ayının 29. günü hilal tespit edilememiştir. Şaban ayı 30 gün sürecektir. Ramazan ayının ilk günü 20 Şubat Cuma olarak belirlenmiştir.",
+    "tarih": "28.02.2026",
+    "durum": "GÖRÜLDÜ",
+    "mesaj": "Ramazan hilali Yalova sahilinden net bir şekilde gözlemlenmiştir. Yarın Ramazan ayının 1. günüdür.",
     "klasor": "1447/09",
-    "resim_sayisi": 3
-  },
-  {
-    "id": 20260119,
-    "yil": 1447,
-    "ay": "Şaban",
-    "tarih": "19.01.2026",
-    "durum": "GÖRÜLMEDİ",
-    "mesaj": "Recep ayının sonunda hilal görülmemiştir. Recep ayı 30 güne tamamlanmıştır. Şaban ayının 1. günü 21 Ocak Çarşamba günüdür.",
-    "klasor": "1447/08",
-    "resim_sayisi": 0
+    "resim_sayisi": 1
   }
 ]
