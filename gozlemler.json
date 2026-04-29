@@ -2,21 +2,25 @@
   {
     "id": 20260429,
     "yil": 1447,
-    "ay": "Ramazan",
+    "ay_key": "ramazan",
+    "onceki_ay_key": "saban",
     "tarih": "29.04.2026",
-    "durum": "GÖRÜLDÜ",
-    "mesaj": "Ramazan hilali 29.04.2026 tarihinde görülmüştür. 30.04.2026 tarihi Ramazan ayının 1. günüdür.",
+    "yer": "Yalova",
+    "baslangic": "30.04.2026",
+    "durum": "seen",
     "klasor": "1447/09",
     "resim_sayisi": 3
-  }
-,  {
+  },
+  {
     "id": 20260428,
     "yil": 1447,
-    "ay": "Zilhicce",
+    "ay_key": "zilhicce",
+    "onceki_ay_key": "zilkade",
     "tarih": "28.04.2026",
-    "durum": "GÖRÜLDÜ",
-    "mesaj": "Zilhicce hilali 28.04.2026 tarihinde görülmüştür. 08.05.2026 tarihi kurban bayramının 1. günüdür.",
-    "klasor": "1447/09",
+    "yer": "Hicaz",
+    "baslangic": "29.04.2026",
+    "durum": "seen",
+    "klasor": "1447/12",
     "resim_sayisi": 3
   }
 ]
