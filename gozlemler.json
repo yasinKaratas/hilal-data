@@ -1,25 +1,13 @@
 [
   {
-    "id": 20260436,
-    "yil": 1447,
-    "ay_key": "ramazan",
-    "onceki_ay_key": "saban",
-    "tarih": "29.04.2026",
-    "yer": "Yalova",
-    "baslangic": "30.04.2026",
-    "durum": "seen",
-    "klasor": "1447/09",
-    "resim_sayisi": 2
-  },
-  {
-    "id": 20260437,
+    "id": 20260430,
     "yil": 1447,
     "ay_key": "zilhicce",
     "onceki_ay_key": "zilkade",
-    "tarih": "28.04.2026",
-    "yer": "Hicaz",
-    "baslangic": "29.04.2026",
-    "durum": "unseen",
+    "tarih": "18.04.2026",
+    "yer": "",
+    "baslangic": "18.04.2026",
+    "durum": "seen",
     "klasor": "1447/09",
     "resim_sayisi": 2
   }
