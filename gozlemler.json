@@ -1,14 +1,11 @@
 [
   {
-    "id": 20260430,
+    "id": 20260418,
     "yil": 1447,
-    "ay_key": "zilhicce",
-    "onceki_ay_key": "zilkade",
+    "ay": 11,
     "tarih": "18.04.2026",
-    "yer": "",
-    "baslangic": "18.04.2026",
     "durum": "seen",
-    "klasor": "1447/12",
-    "resim_sayisi": 1
+    "resim_sayisi": 1,
+    "video_sayisi": 1
   }
 ]
