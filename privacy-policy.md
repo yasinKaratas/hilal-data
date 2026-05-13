@@ -10,31 +10,31 @@ By using the Application, you agree to the collection and use of information in 
 
 ## 1. Information Collection and Use
 
-#### A. Location Data (GPS)
+### A. Location Data (GPS)
 The Application requires access to your device's location data to calculate accurate prayer times, determine Qibla direction, and locate nearby mosques. 
 * **Validation Purpose:** For Hilal (Crescent) observations, location data is used to verify that the photograph's capture location matches your physical location to ensure observation authenticity.
 * **On-Device Validation:** Your real-time device location is processed entirely locally on your device solely to compare and verify it matches the location embedded in the photo. This live physical location is strictly never transmitted to, recorded by, or stored on our servers.
-* **Storage:** General location calculation is done entirely on-device and is never sent to our servers. Only the coordinates of verified Hilal observations are uploaded with your explicit consent.
+* **Storage:** General location calculation is done entirely on-device and is never sent to our servers. Only the coordinates of verified, watermarked Hilal observations are uploaded to Firebase and GitHub with your explicit consent.
 
 ### B. Hilal Sighting Submissions & Media Files
-When you submit a Hilal observation, we collect:
-* **Full Name:** To watermark the image and credit you as the observer.
+Your original raw photos never leave your device; EXIF analysis and watermarking are processed entirely locally on your phone. Only the watermarked image and optional contact details are sent to our Firebase and GitHub servers.
+* **Full Name:** To watermark the image on-device and credit you as the observer.
 * **Contact Info (Email/Phone):** Optional. Used only for verification or feedback. **Never published.**
-* **Images (Max 3):** Must contain original EXIF metadata (time and GPS coordinates) to verify authenticity.
+* **Images (Max 3):** Watermarked locally on your device with your Name, Date, and Location metadata before transmission.
 
 ---
 
-## 2. Data Safety & Retention (The 3-Day Deletion Guarantee)
+## 2. Data Safety & Retention (The 3-Day Selective Deletion Guarantee)
 
-We respect your data privacy and strictly apply the **Data Minimization** principle:
-* **Temporary Storage:** All uploaded raw image files, original EXIF metadata, and your personal contact details (email and phone number) are stored securely on our private servers.
-* **3-Day Deletion Policy:** Within **at most 3 days** after evaluation by our committee, **all original images and contact data are permanently and irreversibly deleted from our servers.**
-* **Global Sighting Announcement &amp; Permanent Watermark:** Once approved, the verified observation image containing a permanent watermark of your **Name, Capture Date, and General Location** will be announced globally and published within the Application for public religious and scientific purposes.
+We respect your data privacy and strictly apply the **Data Minimization** principle on our Firebase and GitHub servers:
+* **Temporary Storage:** All uploaded watermarked images and optional personal contact details (email/phone number) are stored securely on our Firebase Storage, Firebase Database, and GitHub repositories.
+* **3-Day Deletion Policy:** Within **at most 3 days** after evaluation by our committee, **any observations that are not approved (deemed unsuitable), along with the personal contact data of approved ones, are permanently and irreversibly deleted from our Firebase and GitHub servers.**
+* **Permanent Publication of Approved Sightings:** Approved watermarked observation images containing your Name, Capture Date, and General Location will remain published within the Application permanently for public religious and scientific purposes.
 
 ---
 
 ## 3. Data Safety and Security (Encryption)
-* **In-Transit Encryption:** All data transmitted from the Application to our servers is encrypted using Secure Socket Layer (SSL/HTTPS) technology.
+* **In-Transit Encryption:** All data transmitted from the Application to Firebase and GitHub is encrypted using Secure Socket Layer (SSL/HTTPS) technology.
 * **Access Control:** Your temporary contact information is strictly protected by Firebase Security Rules and is only accessible by authorized administrators.
 
 ---
@@ -67,27 +67,27 @@ Uygulamayı kullanarak, bilgilerin bu Gizlilik Politikasına uygun olarak toplan
 Uygulama, doğru namaz vakitlerini hesaplamak, Kıble yönünü belirlemek ve yakındaki camileri bulmak için cihazınızın konum verilerine erişim gerektirir.
 * **Doğrulama Amacı:** Hilal gözlemleri için konum verileri, gözlemin doğruluğunu sağlamak amacıyla fotoğrafın çekildiği konumun fiziksel konumunuzla eşleştiğini doğrulamak için kullanılır.
 * **Cihaz İçi Doğrulama:** Cihazınızın anlık konumu, sadece fotoğrafın çekildiği konumla uyuşup uyuşmadığını doğrulamak amacıyla tamamen yerel olarak cihazınızda işlenir. Bu anlık canlı konum verisi kesinlikle sunucularımıza gönderilmez, kaydedilmez veya izlenmez.
-* **Depolama:** Genel namaz vakti konum hesaplamaları tamamen cihaz üzerinde yapılır ve asla sunucularımıza gönderilmez. Yalnızca onay verdiğiniz Hilal gözlem koordinatları sunucularımıza yüklenir.
+* **Depolama:** Genel namaz vakti konum hesaplamaları tamamen cihaz üzerinde yapılır ve asla sunucularımıza gönderilmez. Yalnızca onay verdiğiniz filigranlı Hilal gözlem koordinatları Firebase ve GitHub sunucularımıza yüklenir.
 
 ### B. Hilal Gözlem Gönderimleri ve Medya Dosyaları
-Bir Hilal gözlemi gönderdiğinizde şunları toplarız:
-* **Ad Soyad:** Resmi filigranlamak ve gözlemci olarak sizi belirtmek için.
+Orijinal ham fotoğraflarınız cihazınızdan asla dışarı çıkmaz; EXIF analizi ve filigranlama tamamen cihazınızda (yerel olarak) gerçekleştirilir. Firebase ve GitHub sunucularına sadece filigranlı görsel ve isteğe bağlı iletişim verileriniz gönderilir.
+* **Ad Soyad:** Resmi cihaz içinde filigranlamak ve gözlemci olarak sizi belirtmek için.
 * **İletişim Bilgileri (E-posta/Telefon):** İsteğe bağlıdır. Sadece doğrulama veya geri bildirim için kullanılır. **Asla yayınlanmaz.**
-* **Fotoğraflar (En Fazla 3):** Doğruluğu teyit etmek için orijinal EXIF meta verilerini (zaman ve GPS koordinatları) içermelidir.
+* **Fotoğraflar (En Fazla 3):** Orijinal EXIF meta verileri cihaz içinde doğrulandıktan sonra, üzerine adınız, çekim zamanı ve konumu yerel olarak basılarak (filigranlanarak) gönderilir.
 
 ---
 
-## 2. Veri Güvenliği ve Saklama (3 Günlük Silme Garantisi)
+## 2. Veri Güvenliği ve Saklama (3 Günlük Seçici Silme Garantisi)
 
-Veri gizliliğinize saygı duyuyor ve **Veri Minimizasyonu** ilkesini sıkı bir şekilde uyguluyoruz:
-* **Geçici Depolama:** Yüklenen tüm orijinal ham resim dosyaları, orijinal EXIF meta verileri ve kişisel iletişim bilgileriniz (e-posta ve telefon numarası) özel sunucularımızda güvenli bir şekilde saklanır.
-* **3 Günlük Silme Politikası:** Kurulumuz tarafından incelendikten sonra **en geç 3 gün içinde**, **tüm orijinal resimler ve iletişim verileri sunucularımızdan kalıcı ve geri döndürülemez şekilde silinir.**
-* **Küresel Gözlem İlanı ve Kalıcı Filigran:** Gözleminiz onaylandığında, üzerinde **Adınız, Çekim Tarihiniz ve Genel Konumunuzun** bulunduğu filigranlı görsel, tüm dünyadaki kullanıcılara adınızla ilan edilerek dini ve bilimsel amaçlarla Uygulama içinde yayınlanır.
+Veri gizliliğinize saygı duyuyor ve **Veri Minimizasyonu** ilkesini Firebase ve GitHub sunucularımızda sıkı bir şekilde uyguluyoruz:
+* **Geçici Depolama:** Gönderilen tüm filigranlı gözlem görselleri ve kişisel iletişim bilgileriniz Firebase Storage, Firebase Database ve GitHub sunucularında güvenli bir şekilde saklanır.
+* **3 Günlük Silme Politikası:** Kurulumuz tarafından incelendikten sonra **en geç 3 gün içinde**, **onaylanmayan (uygun görülmeyen) gözlemlere ait tüm görseller ile onaylanan gözlemlerin iletişim bilgileri Firebase ve GitHub sunucularımızdan kalıcı ve geri döndürülemez şekilde silinir.**
+* **Onaylanan Gözlemlerin Kalıcı Yayını:** Uygun görülen ve onaylanan filigranlı gözlem görselleri, dini ve bilimsel amaçlarla Uygulama içinde kalıcı olarak yayınlanmaya devam eder (silinmez).
 
 ---
 
 ## 3. Veri Güvenliği ve Şifreleme
-* **Aktarım Güvenliği:** Uygulamadan sunucularımıza aktarılan tüm veriler Güvenli Soket Katmanı (SSL/HTTPS) teknolojisi kullanılarak şifrelenir.
+* **Aktarım Güvenliği:** Uygulamadan Firebase ve GitHub sunucularımıza aktarılan tüm veriler Güvenli Soket Katmanı (SSL/HTTPS) teknolojisi kullanılarak şifrelenir.
 * **Erişim Kontrolü:** Geçici iletişim bilgileriniz Firebase Güvenlik Kuralları ile sıkı bir şekilde korunur ve yalnızca yetkili yöneticiler tarafından erişilebilir.
 
 ---
