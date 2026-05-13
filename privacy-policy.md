@@ -10,9 +10,10 @@ By using the Application, you agree to the collection and use of information in 
 
 ## 1. Information Collection and Use
 
-### A. Location Data (GPS)
+#### A. Location Data (GPS)
 The Application requires access to your device's location data to calculate accurate prayer times, determine Qibla direction, and locate nearby mosques. 
 * **Validation Purpose:** For Hilal (Crescent) observations, location data is used to verify that the photograph's capture location matches your physical location to ensure observation authenticity.
+* **On-Device Validation:** Your real-time device location is processed entirely locally on your device solely to compare and verify it matches the location embedded in the photo. This live physical location is strictly never transmitted to, recorded by, or stored on our servers.
 * **Storage:** General location calculation is done entirely on-device and is never sent to our servers. Only the coordinates of verified Hilal observations are uploaded with your explicit consent.
 
 ### B. Hilal Sighting Submissions & Media Files
@@ -65,6 +66,7 @@ Uygulamayı kullanarak, bilgilerin bu Gizlilik Politikasına uygun olarak toplan
 ### A. Konum Verileri (GPS)
 Uygulama, doğru namaz vakitlerini hesaplamak, Kıble yönünü belirlemek ve yakındaki camileri bulmak için cihazınızın konum verilerine erişim gerektirir.
 * **Doğrulama Amacı:** Hilal gözlemleri için konum verileri, gözlemin doğruluğunu sağlamak amacıyla fotoğrafın çekildiği konumun fiziksel konumunuzla eşleştiğini doğrulamak için kullanılır.
+* **Cihaz İçi Doğrulama:** Cihazınızın anlık konumu, sadece fotoğrafın çekildiği konumla uyuşup uyuşmadığını doğrulamak amacıyla tamamen yerel olarak cihazınızda işlenir. Bu anlık canlı konum verisi kesinlikle sunucularımıza gönderilmez, kaydedilmez veya izlenmez.
 * **Depolama:** Genel namaz vakti konum hesaplamaları tamamen cihaz üzerinde yapılır ve asla sunucularımıza gönderilmez. Yalnızca onay verdiğiniz Hilal gözlem koordinatları sunucularımıza yüklenir.
 
 ### B. Hilal Gözlem Gönderimleri ve Medya Dosyaları
