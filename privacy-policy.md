@@ -29,7 +29,7 @@ When you submit a Hilal observation, we collect:
 We respect your data privacy and strictly apply the **Data Minimization** principle:
 * **Temporary Storage:** All uploaded raw image files, original EXIF metadata, and your personal contact details (email and phone number) are stored securely on our private servers.
 * **3-Day Deletion Policy:** Within **at most 3 days** after evaluation by our committee, **all original images and contact data are permanently and irreversibly deleted from our servers.**
-* **Permanent Watermark:** Only the approved visual image containing a permanent watermark of your **Name, Capture Date, and General Location** will remain published within the Application for public religious and scientific purposes.
+* **Global Sighting Announcement &amp; Permanent Watermark:** Once approved, the verified observation image containing a permanent watermark of your **Name, Capture Date, and General Location** will be announced globally and published within the Application for public religious and scientific purposes.
 
 ---
 
@@ -39,7 +39,7 @@ We respect your data privacy and strictly apply the **Data Minimization** princi
 
 ---
 
-## 4. User Rights (Your Rights under GDPR & KVKK)
+## 4. User Rights (Your Rights under GDPR &amp; KVKK)
 Under global data protection laws (such as GDPR and KVKK), you have the right to:
 * **Request Deletion (The Right to be Forgotten):** You can request the removal of your published watermarked Hilal observation images at any time by contacting us.
 * **Withdraw Consent:** You can withdraw your publishing consent at any time.
@@ -82,7 +82,7 @@ Bir Hilal gözlemi gönderdiğinizde şunları toplarız:
 Veri gizliliğinize saygı duyuyor ve **Veri Minimizasyonu** ilkesini sıkı bir şekilde uyguluyoruz:
 * **Geçici Depolama:** Yüklenen tüm orijinal ham resim dosyaları, orijinal EXIF meta verileri ve kişisel iletişim bilgileriniz (e-posta ve telefon numarası) özel sunucularımızda güvenli bir şekilde saklanır.
 * **3 Günlük Silme Politikası:** Kurulumuz tarafından incelendikten sonra **en geç 3 gün içinde**, **tüm orijinal resimler ve iletişim verileri sunucularımızdan kalıcı ve geri döndürülemez şekilde silinir.**
-* **Kalıcı Filigran:** Sadece kurul tarafından onaylanmış, üzerinde **Adınız, Çekim Tarihiniz ve Genel Konumunuzun** bulunduğu filigranlı görsel, dini ve bilimsel amaçlarla Uygulama içinde yayınlanmaya devam eder.
+* **Küresel Gözlem İlanı ve Kalıcı Filigran:** Gözleminiz onaylandığında, üzerinde **Adınız, Çekim Tarihiniz ve Genel Konumunuzun** bulunduğu filigranlı görsel, tüm dünyadaki kullanıcılara adınızla ilan edilerek dini ve bilimsel amaçlarla Uygulama içinde yayınlanır.
 
 ---
 
