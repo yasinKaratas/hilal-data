@@ -1,42 +1,33 @@
-# 🌙 Abbuci - Hilal Gözlem Veri Merkezi
+# Abbuci Prayer & Crescent Watch 🌙
 
-Bu depo, **Abbuci - Prayer** uygulaması için gerçek zamanlı Hilal gözlem verilerini ve kanıt resimlerini barındıran ücretsiz bir veri merkezidir. Bu depo üzerinden yapılan güncellemeler, dünya genelindeki tüm uygulama kullanıcılarına anında yansır.
+Welcome to Abbuci Prayer! We have designed a world-class, privacy-first application dedicated to providing accurate prayer times, an extremely precise Qibla compass, and a global, community-driven Smart Hilal (Crescent) Network. 
 
-## 📂 Dosya Yapısı
+## 🌟 Key Features
 
-*   `gozlemler.json`: Gözlem sonuçlarının metinsel ve durum verilerini içeren ana dosya.
-*   `resimler/`: Hilal gözlemlerine ait fotoğraf kanıtlarının saklandığı klasör.
+*   **⚡ Zero Resource Drain (Maximum Efficiency):** Engineered for absolute perfection! Abbuci Prayer operates completely silently in the background. It **absolutely does not consume** your CPU, GPU, or RAM. Your battery life remains completely unaffected. Experience an incredibly powerful app with zero device footprint and zero lag!
+*   **Smart Hilal Network:** Participate in global Hijri month determinations! Send verified, GPS-linked crescent sightings and contribute to the community.
+*   **Ultimate Privacy:** Your privacy is our priority. No registration is required. All photo metadata and GPS verifications are processed locally on your device. Your original raw photos never leave your phone.
+*   **Professional Qibla Assistant:** Find your direction flawlessly with our map-integrated compass, featuring a real-time digital level assistant.
+*   **Smart Background Sync:** Our reliable system ensures that your prayer alerts arrive accurately and on time, even if the app remains closed for days.
+*   **Universal Native Digits:** We fully support native numerals (Arabic, Hindi, Persian, etc.) for a completely natural cultural experience.
 
----
-
-## 🛠 Yeni Gözlem Nasıl Eklenir? (Adım Adım)
-
-Her Hicri ayın 29. gününde yapılan gözlemden sonra aşağıdaki adımları izleyin:
-
-### 1. Resimleri Yükleyin
-Gözlem sırasında çektiğiniz fotoğrafları (en fazla 5 adet) `resimler/` klasörüne yükleyin. Dosya isimlerinde Türkçe karakter ve boşluk kullanmamaya özen gösterin (Örn: `1GitHub deponuz için hem sizin ileride karıştırmamanız hem de profesyonel bir görünüm için hazırladığım detaylı `README.md` içeriği aşağıdadır. Bu metni kopyalayıp GitHub'daki README dosyanıza yapıştırabilirsiniz.
+## 🔒 Privacy & Security First
+We operate on a "zero registration" philosophy. We don't collect your personal data, track your live location, or ask for unnecessary permissions. Lightweight, exceptionally fast, and completely battery-friendly.
 
 ---
 
-# 🌙 Abbuci - Prayer Hilal Gözlem Veri Merkezi
+# Abbuci Prayer & Crescent Watch 🌙
 
-Bu depo, **Abbuci - Prayer** Android uygulaması için Hilal gözlem sonuçlarını ve görsellerini barındıran resmi veri merkezidir. Uygulama, Hicri ay başlangıçlarını doğrulamak için buradaki verileri gerçek zamanlı olarak çeker.
+Abbuci Prayer'a hoş geldiniz! Hassas namaz vakitleri, son derece doğru bir Kıble pusulası ve küresel, topluluk odaklı Akıllı Hilal Ağı sağlamaya adanmış, dünya standartlarında ve gizlilik odaklı bir uygulama tasarladık.
 
-## 📁 Dosya Yapısı
+## 🌟 Temel Özellikler
 
-*   `gozlemler.json`: Tüm gözlem sonuçlarının, mesajların ve resim yollarının bulunduğu ana veri dosyası.
-*   `resimler/`: Gözlemler sırasında çekilen hilal fotoğraflarının saklandığı klasör.
+*   **⚡ Sıfır Kaynak Tüketimi (Maksimum Verimlilik):** Kusursuzluk için mühendislik edildi! Abbuci Prayer arka planda tamamen sessiz çalışır. Cihazınızın CPU, GPU veya RAM'ini **kesinlikle tüketmez ve yormaz**. Pil ömrünüz %100 güvendedir. Cihazınıza zerre kadar yük bindirmeden, donma ve kasma olmadan güçlü bir uygulama deneyimi yaşayın!
+*   **Akıllı Hilal Ağı:** Küresel Hicri ay belirlemelerine katılın! Doğrulanmış, GPS bağlantılı hilal gözlemleri gönderin ve topluluğa katkıda bulunun.
+*   **Üstün Gizlilik:** Gizliliğiniz önceliğimizdir. Kayıt olmanıza gerek yoktur. Tüm fotoğraf meta verileri ve GPS doğrulamaları cihazınızda yerel olarak işlenir. Orijinal fotoğraflarınız telefonunuzdan asla çıkmaz.
+*   **Profesyonel Kıble Asistanı:** Gerçek zamanlı dijital su terazisi asistanına sahip, harita entegreli pusulamızla yönünüzü kusursuz bir şekilde bulun.
+*   **Akıllı Arka Plan Senkronizasyonu:** Güvenilir sistemimiz, uygulama günlerce kapalı kalsa bile namaz bildirimlerinizin doğru ve zamanında ulaşmasını sağlar.
+*   **Evrensel Rakam Desteği:** Tamamen doğal bir kültürel deneyim için yerel rakamları (Arapça, Hintçe, Farsça vb.) tam olarak destekliyoruz.
 
----
-
-## 🚀 Yeni Gözlem Nasıl Eklenir? (Adım Adım)
-
-Her ayın 29. gününde yapılan gözlemden sonra şu adımları izleyin:
-
-### 1. Resimleri Yükleyin
-*   `resimler/` klasörüne gidin.
-*   Çektiğiniz fotoğrafları (maksimum 5 adet) buraya yükleyin.
-*   Dosya isimlerinde Türkçe karakter ve boşluk kullanmamaya özen gösterin (Örn: `2026_ramazan_01.jpg`).
-
-### 2. JSON Dosyasını Güncelleyin
-`gozlemler.json` dosyasını açın ve en üste (veya mevcut listenin devamına) yeni gözlem bloğunu ekleyin:
+## 🔒 Önce Gizlilik ve Güvenlik
+"Sıfır kayıt" felsefesiyle çalışıyoruz. Kişisel verilerinizi toplamıyor, anlık konumunuzu izlemiyor veya gereksiz izinler istemiyoruz. Son derece hafif, inanılmaz hızlı ve tamamen pil dostu bir deneyim.
