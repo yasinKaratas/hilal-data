@@ -1,101 +1,60 @@
-# Privacy Policy - Abbuci Prayer (Hilal Sighting & Prayer Times)
+# 🛡️ Gizlilik Politikası, Kullanım Koşulları ve Tıbbi Feragatname / Privacy Policy & Terms of Service
 
-*Last Updated: May 13, 2026*
-
-Abbuci ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application, **Abbuci - Prayer** (the "Application").
-
-By using the Application, you agree to the collection and use of information in accordance with this Privacy Policy.
+**Uygulama Adı / App Name:** Abbuci - Prayer Times & Hijama Calendar  
+**Son Güncelleme / Last Updated:** 11 Temmuz 2026 (Sürüm / Version 1.3.0)  
 
 ---
 
-## 1. Information Collection and Use
+## 🇹🇷 TÜRKÇE GİZLİLİK POLİTİKASI VE KULLANIM KOŞULLARI
 
-### A. Location Data (GPS)
-The Application requires access to your device's location data to calculate accurate prayer times, determine Qibla direction, and locate nearby mosques. 
-* **Validation Purpose:** For Hilal (Crescent) observations, location data is used to verify that the photograph's capture location matches your physical location to ensure observation authenticity.
-* **On-Device Validation:** Your real-time device location is processed entirely locally on your device solely to compare and verify it matches the location embedded in the photo. This live physical location is strictly never transmitted to, recorded by, or stored on our servers.
-* **Storage:** General location calculation is done entirely on-device and is never sent to our servers. Only the coordinates of verified, watermarked Hilal observations are uploaded to Firebase and GitHub with your explicit consent.
+### 1. Yerel-Öncelikli ("Local-First") Gizlilik Mimarisi
+Abbuci uygulaması, kullanıcı gizliliğini en üst düzeyde koruma prensibiyle **tamamen cihaz içi ("local-first")** çalışacak şekilde tasarlanmıştır. Uygulamamız:
+* Hiçbir üyelik, kayıt, isim, e-posta veya telefon numarası talep etmez.
+* Namaz vakitleri hesaplamaları, bildirim tercihleri ve konum ayarlarınız yalnızca kendi cihazınızdaki yerel veritabanında (`SQLite & SharedPreferences`) saklanır.
+* Kişisel verileriniz (`PII`) asla üçüncü taraf sunuculara iletilmez, satılmaz veya ticari amaçla işlenmez.
 
-### B. Hilal Sighting Submissions & Media Files
-Your original raw photos never leave your device; EXIF analysis and watermarking are processed entirely locally on your phone. Only the watermarked image and optional contact details are sent to our Firebase and GitHub servers.
-* **Full Name:** To watermark the image on-device and credit you as the observer.
-* **Contact Info (Email/Phone):** Optional. Used only for verification or feedback. **Never published.**
-* **Images (Max 3):** Watermarked locally on your device with your Name, Date, and Location metadata before transmission.
+### 2. Konum Verileri ve GPS Kullanımı
+Uygulama, namaz vakitlerini astronomik olarak doğru hesaplayabilmek, Kıble pusulasını yönlendirebilmek ve Akıllı Hilal gözlemlerini coğrafi olarak doğrulamak amacıyla cihazınızın konum (`GPS`) verisine ihtiyaç duyar. Bu konum verisi yalnızca anlık hesaplamalar için cihazınızda yerel olarak işlenir ve hiçbir uzak sunucuya kaydedilmez.
 
----
+### 3. Akıllı Hilal Ağı ve Fotoğraf/EXIF Doğrulaması
+Topluluk destekli Akıllı Hilal Ağı özelliğimiz kapsamında, gökyüzündeki Hilal gözleminizi paylaşmayı tercih ettiğinizde; çekilen fotoğrafın EXIF verileri (tarih/saat, GPS koordinatı ve pusula açısı) evrensel Hicri takvim tespiti amacıyla işlenir. Orijinal fotoğraflarınız ve kişisel verileriniz siz açıkça onay vermedikçe cihazınızdan dışarı çıkarılmaz.
 
-## 2. Data Safety & Retention (The 3-Day Selective Deletion Guarantee)
+> [!WARNING]
+> ### ⚠️ ÖNEMLİ TIBBİ VE HUKUKİ FERAGATNAME (HACAMAT TAKVİMİ)
+> Abbuci uygulamasında sunulan **"Dinamik Hacamat Takvimi"** ve öncelik dereceleri, yalnızca dini kaynaklara (Hadis-i Şerifler ve geleneksel İslami kaynaklar) dayalı bilgilendirme amaçlıdır. Bu takvim **kesinlikle profesyonel tıbbi tavsiye, teşhis, tedavi veya doktor randevusu yerine geçmez** ve tıbbi bir reçete niteliği taşımaz. Hacamat (kupa terapisi) yaptırmadan önce daima yetkili, lisanslı ve uzman bir tıp doktoruna danışmalısınız. Sağlık durumunuzla veya tıbbi müdahalelerle ilgili doğabilecek hiçbir doğrudan, dolaylı, bedensel veya hukuki sonuçtan uygulama geliştiricisi sorumlu tutulamaz.
 
-We respect your data privacy and strictly apply the **Data Minimization** principle on our Firebase and GitHub servers:
-* **Temporary Storage:** All uploaded watermarked images and optional personal contact details (email/phone number) are stored securely on our Firebase Storage, Firebase Database, and GitHub repositories.
-* **3-Day Deletion Policy:** Within **at most 3 days** after evaluation by our committee, **any observations that are not approved (deemed unsuitable), along with the personal contact data of approved ones, are permanently and irreversibly deleted from our Firebase and GitHub servers.**
-* **Permanent Publication of Approved Sightings:** Approved watermarked observation images containing your Name, Capture Date, and General Location will remain published within the Application permanently for public religious and scientific purposes.
+### 4. Üçüncü Taraf Kütüphaneler ve Reklam Ağları
+Uygulamamız, hizmetin sürdürülebilirliğini sağlamak amacıyla Google AdMob reklam ağını ve arka plan senkronizasyonu için Android WorkManager kütüphanelerini kullanabilir. Google AdMob, reklam kişiselleştirmesi amacıyla anonim reklam kimlikleri kullanabilir. Detaylar için [Google Gizlilik Politikası](https://policies.google.com/privacy) incelenebilir.
 
 ---
 
-## 3. Data Safety and Security (Encryption)
-* **In-Transit Encryption:** All data transmitted from the Application to Firebase and GitHub is encrypted using Secure Socket Layer (SSL/HTTPS) technology.
-* **Access Control:** Your temporary contact information is strictly protected by Firebase Security Rules and is only accessible by authorized administrators.
+## 🇬🇧 ENGLISH PRIVACY POLICY & TERMS OF SERVICE
+
+### 1. Local-First Zero-Data Privacy Architecture
+Abbuci is built on a strict **"local-first" zero-data privacy principle**. Our application:
+* Requires no registration, account creation, name, email, or phone number.
+* Stores all prayer time calculations, notification settings, and location preferences exclusively within your device's local storage (`SQLite & SharedPreferences`).
+* Never transmits, sells, or monetizes any Personally Identifiable Information (`PII`) on external servers.
+
+### 2. Location Data and GPS Usage
+To calculate astronomical prayer times accurately, orient the Qibla compass, and verify Crescent sightings geographically, the app requires access to your device's GPS location. This location data is processed strictly locally on your device for real-time calculations and is never logged or tracked on remote servers.
+
+### 3. Smart Hilal Network & Photo EXIF Processing
+When using our community-driven Smart Hilal Network to report Crescent observations, photo EXIF metadata (timestamp, GPS coordinates, and compass azimuth) is locally verified to determine accurate global Hijri calendar transitions. Your photos remain private on your device unless explicitly submitted by you.
+
+> [!WARNING]
+> ### ⚠️ CRITICAL MEDICAL & LEGAL DISCLAIMER (HIJAMA CALENDAR)
+> The **"Dynamic Hijama (Cupping) Calendar"** and priority recommendations provided within the Abbuci app are strictly for informational and traditional religious (`Sunnah/Hadith`) guidance only. They do **NOT constitute professional medical advice, diagnosis, treatment, or clinical prescription**. You must always consult a certified medical doctor or qualified healthcare professional before undergoing any cupping therapy or medical procedure. The application developer assumes zero legal, financial, or medical liability for any health consequences, physical complications, or outcomes resulting from the use of this calendar.
+
+### 4. Third-Party Services and Advertising
+To maintain app development, we utilize the Google AdMob advertising network and Android WorkManager for background notifications. Google AdMob may process anonymous advertising IDs in accordance with the [Google Privacy Policy](https://policies.google.com/privacy).
 
 ---
 
-## 4. User Rights (Your Rights under GDPR &amp; KVKK)
-Under global data protection laws (such as GDPR and KVKK), you have the right to:
-* **Request Deletion (The Right to be Forgotten):** You can request the removal of your published watermarked Hilal observation images at any time by contacting us.
-* **Withdraw Consent:** You can withdraw your publishing consent at any time.
-
-For any deletion requests or inquiries, please contact us at:
-📧 **karatas.y [at] gmail.com**
+### 📬 İletişim / Contact Us
+Gizlilik politikamız veya uygulamamızla ilgili her türlü soru, öneri ve yasa gereği bildirimleriniz için bizimle iletişime geçebilirsiniz:  
+**E-posta / Email:** `yasinkaratas@example.com`  
+**GitHub Repository:** [hilal-data](https://github.com/yasinkaratas/hilal-data)
 
 ---
-
-<br>
-
-# Gizlilik Politikası - Abbuci Prayer (Hilal Gözlemi ve Namaz Vakitleri)
-
-*Son Güncelleme: 13 Mayıs 2026*
-
-Abbuci ("biz", "bize" veya "bizim"), gizliliğinizi korumayı taahhüt eder. Bu Gizlilik Politikası, **Abbuci - Prayer** mobil uygulamasını ("Uygulama") kullandığınızda bilgilerinizin nasıl toplandığını, kullanıldığını, açıklandığını ve korunduğunu açıklamaktadır.
-
-Uygulamayı kullanarak, bilgilerin bu Gizlilik Politikasına uygun olarak toplanmasını ve kullanılmasını kabul etmiş olursunuz.
-
----
-
-## 1. Bilgi Toplama ve Kullanım
-
-### A. Konum Verileri (GPS)
-Uygulama, doğru namaz vakitlerini hesaplamak, Kıble yönünü belirlemek ve yakındaki camileri bulmak için cihazınızın konum verilerine erişim gerektirir.
-* **Doğrulama Amacı:** Hilal gözlemleri için konum verileri, gözlemin doğruluğunu sağlamak amacıyla fotoğrafın çekildiği konumun fiziksel konumunuzla eşleştiğini doğrulamak için kullanılır.
-* **Cihaz İçi Doğrulama:** Cihazınızın anlık konumu, sadece fotoğrafın çekildiği konumla uyuşup uyuşmadığını doğrulamak amacıyla tamamen yerel olarak cihazınızda işlenir. Bu anlık canlı konum verisi kesinlikle sunucularımıza gönderilmez, kaydedilmez veya izlenmez.
-* **Depolama:** Genel namaz vakti konum hesaplamaları tamamen cihaz üzerinde yapılır ve asla sunucularımıza gönderilmez. Yalnızca onay verdiğiniz filigranlı Hilal gözlem koordinatları Firebase ve GitHub sunucularımıza yüklenir.
-
-### B. Hilal Gözlem Gönderimleri ve Medya Dosyaları
-Orijinal ham fotoğraflarınız cihazınızdan asla dışarı çıkmaz; EXIF analizi ve filigranlama tamamen cihazınızda (yerel olarak) gerçekleştirilir. Firebase ve GitHub sunucularına sadece filigranlı görsel ve isteğe bağlı iletişim verileriniz gönderilir.
-* **Ad Soyad:** Resmi cihaz içinde filigranlamak ve gözlemci olarak sizi belirtmek için.
-* **İletişim Bilgileri (E-posta/Telefon):** İsteğe bağlıdır. Sadece doğrulama veya geri bildirim için kullanılır. **Asla yayınlanmaz.**
-* **Fotoğraflar (En Fazla 3):** Orijinal EXIF meta verileri cihaz içinde doğrulandıktan sonra, üzerine adınız, çekim zamanı ve konumu yerel olarak basılarak (filigranlanarak) gönderilir.
-
----
-
-## 2. Veri Güvenliği ve Saklama (3 Günlük Seçici Silme Garantisi)
-
-Veri gizliliğinize saygı duyuyor ve **Veri Minimizasyonu** ilkesini Firebase ve GitHub sunucularımızda sıkı bir şekilde uyguluyoruz:
-* **Geçici Depolama:** Gönderilen tüm filigranlı gözlem görselleri ve kişisel iletişim bilgileriniz Firebase Storage, Firebase Database ve GitHub sunucularında güvenli bir şekilde saklanır.
-* **3 Günlük Silme Politikası:** Kurulumuz tarafından incelendikten sonra **en geç 3 gün içinde**, **onaylanmayan (uygun görülmeyen) gözlemlere ait tüm görseller ile onaylanan gözlemlerin iletişim bilgileri Firebase ve GitHub sunucularımızdan kalıcı ve geri döndürülemez şekilde silinir.**
-* **Onaylanan Gözlemlerin Kalıcı Yayını:** Uygun görülen ve onaylanan filigranlı gözlem görselleri, dini ve bilimsel amaçlarla Uygulama içinde kalıcı olarak yayınlanmaya devam eder (silinmez).
-
----
-
-## 3. Veri Güvenliği ve Şifreleme
-* **Aktarım Güvenliği:** Uygulamadan Firebase ve GitHub sunucularımıza aktarılan tüm veriler Güvenli Soket Katmanı (SSL/HTTPS) teknolojisi kullanılarak şifrelenir.
-* **Erişim Kontrolü:** Geçici iletişim bilgileriniz Firebase Güvenlik Kuralları ile sıkı bir şekilde korunur ve yalnızca yetkili yöneticiler tarafından erişilebilir.
-
----
-
-## 4. Kullanıcı Hakları (KVKK ve GDPR Kapsamındaki Haklarınız)
-Küresel veri koruma kanunları (KVKK ve GDPR gibi) kapsamında aşağıdaki haklara sahipsiniz:
-* **Silme Talebi (Unutulma Hakkı):** Yayınlanan filigranlı Hilal gözlem resimlerinizin kaldırılmasını dilediğiniz zaman bizimle iletişime geçerek talep edebilirsiniz.
-* **Rızanın Geri Çekilmesi:** Yayınlama onayınızı dilediğiniz zaman geri çekebilirsiniz.
-
-Her türlü silme talebi ve sorularınız için bizimle iletişime geçebilirsiniz:
-📧 **karatas.y [at] gmail.com**
+*&copy; 2026 Abbuci Prayer & Hijama App. Tüm Hakları Saklıdır / All Rights Reserved.*
